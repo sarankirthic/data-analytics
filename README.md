@@ -87,13 +87,16 @@ Use archived and historical data to forecast future trends and behaviors with:
 ---
 
 ## Technologies
-Python (Pandas, Apache Airflow for orchestration, TensorFlow or PyTorch for ML models)
-REAT API
-PostgreSQL or Snowflake
-Docker
-AWS (Boto3)
+* Python
+* Pandas
+* Apache Airflow
+* PostgreSQL or Snowflake
+* Docker
+* AWS (Boto3)
+
+[//]: # (* &#40;TensorFlow or PyTorch for ML models&#41;)
 
 ---
 
 ## License
-
+This project is licensed under the MIT License.
