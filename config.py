@@ -1,7 +1,10 @@
-import os
+from pathlib import Path
 
 
 class Config:
+    # Directory Path
+    BASE_DIR = Path(__file__).resolve().parent.parent
+
     # News API
     # https://newsapi.org/
     NEWS_API_BASE_URL = "https://newsapi.org/v2"
@@ -17,6 +20,9 @@ class Config:
 
     # The Guardian - API
     # https://open-platform.theguardian.com/?ref=public_apis&utm_medium=website
+
+    # The wire.in
+    # https://thewire.in/
 
     # Times of India - RSS
     # https://timesofindia.indiatimes.com/rss.cms
@@ -44,3 +50,13 @@ class Config:
 
     # Deccan Chronicles
     # https://www.deccanchronicle.com/
+
+    # Hackaday
+    # https://hackaday.com/
+
+    # Scraper
+    # 1. https://github.com/desiquant/news_scraper - Need to validate
+    # 2. https://github.com/VelagapudiGokhul/NewsScraper
+    # 3. https://github.com/kurtbrii/indian-newspaper-scraper
+
+    # MorningBrew
