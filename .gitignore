@@ -208,3 +208,4 @@ __marimo__/
 
 .idea/
 ingestion/news/
+config.py

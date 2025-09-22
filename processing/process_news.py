@@ -2,7 +2,6 @@ from config import Config
 import pandas as pd
 import json
 from pathlib import Path
-import os
 
 
 def get_latest_raw_directory(base_dir):
