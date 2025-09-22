@@ -28,8 +28,11 @@ such as alerting or live dashboards.
 ---
 
 ## Upcoming Features
+### Local Storage Solution
+Integrate Snowflake into the project for efficient storage option.
+
 ### Predictive Analysis 
-This uses historical data to forecast future trends and behaviors with:
+Use archived and historical data to forecast future trends and behaviors with:
 
 1. `Machine Learning Models:` Regression, classification, or time-series forecasting models. 
 2. `Statistical Analysis:` Identifying patterns, seasonality, or anomaly detection. 
@@ -40,6 +43,32 @@ This uses historical data to forecast future trends and behaviors with:
 1. `Data Visualization Tools:` Tableau, Power BI, Grafana, or custom web apps with charting libraries. 
 2. `Interactivity:` Filters, drill-downs, real-time updates, and dynamic querying. 
 3. `Purpose:` Empower stakeholders to explore key metrics, monitor KPIs, and discover actionable insights quickly.
+
+---
+
+## Installation
+
+1. Clone this repository
+   ```bash
+   git clone https://github.com/sarankirthic/data-analytics.git
+   ```
+2. Create virtualenv 
+   ```bash
+   virtualenv venv -p \path\to\python
+   ```
+2. Install python packages
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+---
+
+## Running the Project
+1. Rename `config.txt` to `config.py` and add your api keys and sensitive information.
+2. Run the file
+   ```bash
+   python3 airflow/dags/news_data_pipeline.py
+   ```
 
 ---
 
@@ -60,6 +89,11 @@ This uses historical data to forecast future trends and behaviors with:
 ## Technologies
 Python (Pandas, Apache Airflow for orchestration, TensorFlow or PyTorch for ML models)
 REAT API
-PostgreSQL
+PostgreSQL or Snowflake
 Docker
-AWS
+AWS (Boto3)
+
+---
+
+## License
+
